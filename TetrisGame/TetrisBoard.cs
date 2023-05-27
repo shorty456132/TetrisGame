@@ -22,5 +22,12 @@ namespace TetrisGame
             Width = width;
             Height = height;
         }
+
+        public int GetCellState(int x, int y)
+        {
+            return board[x, y];
+        }
+
+        //TODO: Implement methods to interact with the game board (e.g. setting cell state)
     }
 }

@@ -3,8 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TetrisGame.MainPage">
 
-    <Grid x:Name="gridName">
-        
+    <Grid>
+        <Grid x:Name="gameGrid">
+            
+        </Grid>
     </Grid>
 
 </ContentPage>

@@ -13,6 +13,7 @@ namespace TetrisGame
         private Random random;
 
         public event EventHandler<GameOverEventArgs> GameOver;
+        public TetrisBoard Board { get { return board; } }
 
         public TetrisGame(int width, int height)
         {
