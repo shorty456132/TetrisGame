@@ -5,7 +5,7 @@ public partial class App : Application
 	public App()
 	{
 		InitializeComponent();
-
-		MainPage = new AppShell();
+		//set applicatoin's entry point and create a new instance of main page
+		MainPage = new NavigationPage(new MainPage());
 	}
 }

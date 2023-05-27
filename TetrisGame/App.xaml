@@ -8,4 +8,11 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
+    <Application.MainPage>
+        <ContentPage>
+            <Grid x:Name="gameGrid">
+                <!--Add UI Elements for the game board-->
+            </Grid>
+        </ContentPage>
+    </Application.MainPage>
 </Application>

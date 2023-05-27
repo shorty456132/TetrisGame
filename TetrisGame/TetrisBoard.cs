@@ -8,5 +8,19 @@ namespace TetrisGame
 {
     public class TetrisBoard
     {
+        //2d array to store the state of each cell on the grid
+        private int[,] board;
+
+        public int Width { get; private set; }
+        public int Height { get; private set; }
+        
+
+        public TetrisBoard(int width, int height)
+        {
+            //this.board = board;
+            board = new int[width, height];
+            Width = width;
+            Height = height;
+        }
     }
 }
